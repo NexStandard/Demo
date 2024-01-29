@@ -14,6 +14,15 @@ edit A1 save
 now reload in editor
 should reload all 3
 ------------
+add Component.cs to a thing
+save
+close stride
+reopen stride
+no errors on deserialization
+add property in IComp1.cs
+implement properyt in Component.cs
+reload in editor
+------------
 add 
 <PackageReference Include="Stride.BepuPhysics" Version="0.9.2" />
 to Demo
